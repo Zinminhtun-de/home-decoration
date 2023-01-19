@@ -1,0 +1,74 @@
+:root {
+    --website-bkg-clr-achieve:#D0E5E7;
+    --website-bkg-clr:#E3EFF0;
+    --clr-primary:#68162C;
+    --clr-secondary:#0E186D;
+    --clr-Body-Text:#000000;
+    --clr-text-in-the-Box-1:#979797;
+    --clr-text-in-the-Box-2:#FFFFFF;
+    --clr-text-in-the-Box-3:#0E186D;
+    --clr-text-Box:#F7F9FB;
+    --clr-block:#F2F3F7;
+    --clr-primary-button:#68162C;
+    --clr-footer-menu-button:#F7F9FB;
+    --clr-hover-btn:#979797;
+    --clr-hover-btn-text:#000000;
+
+    /* explore our project section color*/
+    --clr-active:#68162C;
+    --opacity-clr:100%;
+    /* no active */
+    --clr-no-active:#68162C;
+    --opacity-clr:60%;
+    /* ------ */
+
+    /* item's information color */
+    --clr-active-text:#0E186D;
+    --opacity-text-clr:100%;
+    --opacity-img:100%;
+    /* no active */
+    --clr-no-active-text:#0E186D;
+    --opacity-text-clr:60%;
+    --opacity-img:60%;
+    /*------ */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+    --fw-ultra-bold: 800;
+  
+    --fs-001: 0.625rem; /*10px */
+    --fs-002: 0.75rem;
+    --fs-003: 0.875rem;/*14px */
+    --fs-004: 1rem;/*16px*/
+    --fs-005: 1.125rem;/*18px*/
+    --fs-006: 1.25rem;/*20px*/
+    --fs-007: 1.5rem;
+    --fs-008: 1.625rem;
+    --fs-009: 1.75rem;
+    --fs-010: 2.5rem;/*40px*/
+    --fs-011: 2.25rem;
+    --fs-012: 2.875rem;
+    --fs-013: 3rem;
+    --fs-014: 3.125rem;/*50px*/
+    --fs-015: 3.5rem;
+  
+    --lh-001: 0.875rem; 
+    --lh-002: 0.938rem;
+    --lh-003: 1rem; /*16px*/
+    --lh-004: 1.125rem; 
+    --lh-005: 1.25rem;  
+    --lh-000: 1.313rem; /*21px*/
+    --lh-006: 1.438rem;
+    --lh-007: 1.563rem;
+    --lh-008: 1.875rem;
+    --lh-009: 2.063rem;
+    --lh-010: 2.188rem;
+    --lh-011: 2.5rem; 
+    --lh-012: 2.813rem;
+    --lh-013: 3.125rem; 
+    --lh-014: 3.75rem;
+    --lh-015: 3.938rem;
+    --lh-016: 4rem;
+
+  }
