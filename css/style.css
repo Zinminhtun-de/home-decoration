@@ -70,5 +70,37 @@
     --lh-014: 3.75rem;
     --lh-015: 3.938rem;
     --lh-016: 4rem;
-
+    
+    --ff-primary:'SF PRO DISPLAY';
+    --ff-header:'Monument Extented';
   }
+ /* ======= reset style ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--ff-header);
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
