@@ -96,6 +96,7 @@ html,
 body {
   height: 100%;
   font-family: var(--ff-header);
+  background-color: var(--website-bkg-clr);
 }
 
 img,
