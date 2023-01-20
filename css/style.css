@@ -1,80 +1,80 @@
 :root {
-    --website-bkg-clr-achieve:#D0E5E7;
-    --website-bkg-clr:#E3EFF0;
-    --clr-primary:#68162C;
-    --clr-secondary:#0E186D;
-    --clr-Body-Text:#000000;
-    --clr-text-in-the-Box-1:#979797;
-    --clr-text-in-the-Box-2:#FFFFFF;
-    --clr-text-in-the-Box-3:#0E186D;
-    --clr-text-Box:#F7F9FB;
-    --clr-block:#F2F3F7;
-    --clr-primary-button:#68162C;
-    --clr-footer-menu-button:#F7F9FB;
-    --clr-hover-btn:#979797;
-    --clr-hover-btn-text:#000000;
+  --website-bkg-clr-achieve: #d0e5e7;
+  --website-bkg-clr: #e3eff0;
+  --clr-primary: #68162c;
+  --clr-secondary: #0e186d;
+  --clr-Body-Text: #000000;
+  --clr-text-in-the-Box-1: #979797;
+  --clr-text-in-the-Box-2: #ffffff;
+  --clr-text-in-the-Box-3: #0e186d;
+  --clr-text-Box: #f7f9fb;
+  --clr-block: #f2f3f7;
+  --clr-primary-button: #68162c;
+  --clr-footer-menu-button: #f7f9fb;
+  --clr-hover-btn: #979797;
+  --clr-hover-btn-text: #000000;
 
-    /* explore our project section color*/
-    --clr-active:#68162C;
-    --opacity-clr:100%;
-    /* no active */
-    --clr-no-active:#68162C;
-    --opacity-clr:60%;
-    /* ------ */
+  /* explore our project section color*/
+  --clr-active: #68162c;
+  --opacity-clr: 100%;
+  /* no active */
+  --clr-no-active: #68162c;
+  --opacity-clr: 60%;
+  /* ------ */
 
-    /* item's information color */
-    --clr-active-text:#0E186D;
-    --opacity-text-clr:100%;
-    --opacity-img:100%;
-    /* no active */
-    --clr-no-active-text:#0E186D;
-    --opacity-text-clr:60%;
-    --opacity-img:60%;
-    /*------ */
-    --fw-regular: 400;
-    --fw-medium: 500;
-    --fw-semi-bold: 600;
-    --fw-bold: 700;
-    --fw-ultra-bold: 800;
-  
-    --fs-001: 0.625rem; /*10px */
-    --fs-002: 0.75rem;
-    --fs-003: 0.875rem;/*14px */
-    --fs-004: 1rem;/*16px*/
-    --fs-005: 1.125rem;/*18px*/
-    --fs-006: 1.25rem;/*20px*/
-    --fs-007: 1.875rem; /* 30px*/
-    --fs-008: 1.625rem;
-    --fs-009: 1.75rem;
-    --fs-010: 2.5rem;/*40px*/
-    --fs-011: 2.25rem;
-    --fs-012: 2.875rem;
-    --fs-013: 3rem;
-    --fs-014: 3.125rem;/*50px*/
-    --fs-015: 3.5rem;
-  
-    --lh-001: 0.875rem; 
-    --lh-002: 0.938rem;
-    --lh-003: 1rem; /*16px*/
-    --lh-004: 1.125rem; 
-    --lh-005: 1.25rem;  
-    --lh-000: 1.313rem; /*21px*/
-    --lh-006: 1.438rem;
-    --lh-007: 1.563rem;
-    --lh-008: 1.875rem;
-    --lh-009: 2.063rem;
-    --lh-010: 2.188rem;
-    --lh-011: 2.5rem; 
-    --lh-012: 2.813rem;
-    --lh-013: 3.125rem; 
-    --lh-014: 3.75rem;
-    --lh-015: 3.938rem;
-    --lh-016: 4rem;
-    
-    --ff-primary:'SF PRO DISPLAY';
-    --ff-header:'Monument Extented';
-  }
- /* ======= reset style ===== */
+  /* item's information color */
+  --clr-active-text: #0e186d;
+  --opacity-text-clr: 100%;
+  --opacity-img: 100%;
+  /* no active */
+  --clr-no-active-text: #0e186d;
+  --opacity-text-clr: 60%;
+  --opacity-img: 60%;
+  /*------ */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-ultra-bold: 800;
+
+  --fs-001: 0.625rem; /*10px */
+  --fs-002: 0.75rem;
+  --fs-003: 0.875rem; /*14px */
+  --fs-004: 1rem; /*16px*/
+  --fs-005: 1.125rem; /*18px*/
+  --fs-006: 1.25rem; /*20px*/
+  --fs-007: 1.875rem; /* 30px*/
+  --fs-008: 1.625rem;
+  --fs-009: 1.75rem;
+  --fs-010: 2.5rem; /*40px*/
+  --fs-011: 2.25rem;
+  --fs-012: 2.875rem;
+  --fs-013: 3rem;
+  --fs-014: 3.125rem; /*50px*/
+  --fs-015: 3.5rem;
+
+  --lh-001: 0.875rem;
+  --lh-002: 0.938rem;
+  --lh-003: 1rem; /*16px*/
+  --lh-004: 1.125rem;
+  --lh-005: 1.25rem;
+  --lh-000: 1.313rem; /*21px*/
+  --lh-006: 1.438rem;
+  --lh-007: 1.563rem;
+  --lh-008: 1.875rem;
+  --lh-009: 2.063rem;
+  --lh-010: 2.188rem;
+  --lh-011: 2.5rem;
+  --lh-012: 2.813rem;
+  --lh-013: 3.125rem;
+  --lh-014: 3.75rem;
+  --lh-015: 3.938rem;
+  --lh-016: 4rem;
+
+  --ff-primary: "SF PRO DISPLAY";
+  --ff-header: "Monument Extented";
+}
+/* ======= reset style ===== */
 
 *,
 *::before,
@@ -95,7 +95,7 @@ html {
 html,
 body {
   height: 100%;
-  font-family: var(--ff-header);
+  font-family: var(--ff-primary);
 }
 
 img,
@@ -136,4 +136,58 @@ svg {
 }
 
 /* custom css */
+header {
+  width: 100%;
+  padding-block: 10px;
+  /* position: fixed; */
+  top: 0;
+}
 
+header > #header_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > #header_wrapper > .logo {
+  display: flex;
+}
+
+header > #header_wrapper > .logo > .logo-text {
+  padding-left: 1rem;
+}
+
+header > #header_wrapper > .logo > .logo-text > .f-30-ultra {
+  margin: 0 auto;
+  color: var(--clr-primary);
+  font-size: var(--fs-007);
+  font-family: var(--ff-header);
+  font-weight: var(--fw-ultra-bold);
+}
+
+header > #header_wrapper > .logo > .logo-text > .f-16 {
+  margin: 0 auto;
+  color: var(--clr-secondary);
+  font-size: var(--fs-004);
+  font-weight: var(--fw-semi-bold);
+}
+
+header > #header_wrapper > nav > ul {
+  display: flex;
+  list-style: none;
+  color: var(--clr-secondary);
+}
+
+header > #header_wrapper > nav > ul > li {
+  position: relative;
+}
+
+header > #header_wrapper > nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  margin: 10px 30px;
+  color: var(--clr-gray);
+  transition: all 0.3s ease-in;
+}
