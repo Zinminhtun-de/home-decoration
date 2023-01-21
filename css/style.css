@@ -134,13 +134,37 @@ svg {
 .text-box {
   color: var(--clr-text-Box);
 }
+ /* header for each section */
+ .header-for-all{
+  font-size: 40px;
+  color: #68162C;
+  display: flex;
+  font-family: var(--ff-header);
+  margin-bottom: 3rem;
+}
+/* #### */
+
+ /* each btn style for slider */
+.btn-for-slider{
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  background: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+ }
+ .btn-for-slider:hover{
+ color:#979797 ;
+ }
+ /* #### */
+
 #project .projects-container{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #project  h1{
-  margin-left: 13rem;
+  margin-left: 10rem;
   font-size: 40px;
   color: #68162C;
   display: flex;
@@ -170,7 +194,7 @@ svg {
 #project .projects-container .projects-items .item{
   display: flex;
   flex-direction: column;
-  width: 9rem;
+  width: 10rem;
   height: 8rem;
   background-color: #F7F9FB;
   text-align: center;
@@ -205,25 +229,15 @@ svg {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  width: 54.188rem;
-  height: 25.188rem;
+  width: 59.188rem;
+  height: 27.188rem;
   background-color:#F7F9FB ;
   justify-content: center;
   gap: 1rem;
   border-bottom-left-radius:  5rem;
   border-bottom-right-radius: 5rem;
 }
-#project .projects-container .project-items-slider .btn button{
- border: none;
- outline: none;
- font-size: 2rem;
- background: none;
- cursor: pointer;
- transition: all .4s ease-in-out;
-}
-#project .projects-container .project-items-slider .btn button:hover{
-color:#979797 ;
-}
+
 #project .projects-container .project-items-slider .project-slider {
   display: flex;
   align-items: center;
@@ -237,9 +251,88 @@ color:#979797 ;
   color: #68162C;
 }
 #project .projects-container .project-items-slider .project-slider .project-slider-text p{
-  width: 25rem;
+  width: 26rem;
   
 }
 #project .projects-container .project-items-slider .project-slider img{
   height: 20rem;
 }
+#client .client-parent-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 7rem;
+}
+#client .client-parent-container .client-slider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#client .client-parent-container .client-slider .client-slider-items{
+  display: flex;
+  align-items: center;
+}
+
+#client .client-parent-container .client-slider .client-slider-items img{
+   height: 25rem;
+}
+#client .client-parent-container .client-slider .client-slider-items p{
+  letter-spacing: 2px;
+  width: 28rem;
+  margin-left: 3rem;
+}
+#client .client-parent-container .client-slider .client-slider-items p i{
+  font-size: 1.6rem;
+  color:var(--clr-secondary) ;
+}
+#service .service-parent-container {
+   /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+#service .service-parent-container h1{
+  margin-left: 15rem;
+}
+#service .service-parent-container .intallation-1 .installation-items{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
+.img-serivice{
+  height: 22rem;
+  margin-right: 3rem;
+}
+#service .service-parent-container .intallation-1 .installation-items p{
+  width: 28rem;
+ 
+}
+.header-services{
+  color: var(--clr-active);
+  font-family: var(--ff-header);
+  letter-spacing: 2px;
+}
+#service .service-parent-container .installation-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+#service .service-parent-container .installation-2 .installation-item2{
+  display: flex;
+  align-items: center;
+}
+#service .service-parent-container .installation-2 .installation-item2  img{
+  margin-left: 3rem;
+}
+#service .service-parent-container .installation-2 .installation-item2 .installation-items-text2 p{
+  width: 28rem;
+}
+#service .service-parent-container .installation-2 .installation-item2 .installation-items-text2 h5{
+  color: var(--clr-active-text);
+  font-family: var(--ff-header);
+  letter-spacing: 2px;
+}
+
