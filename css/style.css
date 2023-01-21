@@ -95,7 +95,7 @@ html {
 html,
 body {
   height: 100%;
-  font-family: var(--ff-header);
+  font-family: var(--ff-primary);
   background-color: var(--website-bkg-clr);
 }
 
