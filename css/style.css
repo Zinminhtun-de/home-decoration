@@ -134,3 +134,112 @@ svg {
 .text-box {
   color: var(--clr-text-Box);
 }
+#project .projects-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#project  h1{
+  margin-left: 13rem;
+  font-size: 40px;
+  color: #68162C;
+  display: flex;
+  font-family: var(--ff-header);
+}
+#project .projects-container .projects-items{
+  display: flex;
+  gap: 1rem;
+}
+#project .projects-container .projects-items .item-1{
+  border-top-left-radius: 5rem;
+  border-top-right-radius: .8rem;
+  border-bottom-left-radius: .8rem;
+  border-bottom-right-radius: .8rem;
+}
+#project .projects-container .projects-items .item-2,
+#project .projects-container .projects-items .item-3,
+#project .projects-container .projects-items .item-4{
+  border-radius:.8rem ;
+}
+#project .projects-container .projects-items .item-5{
+  border-top-left-radius: .8rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: .8rem;
+  border-bottom-right-radius: .8rem;
+}
+#project .projects-container .projects-items .item{
+  display: flex;
+  flex-direction: column;
+  width: 9rem;
+  height: 8rem;
+  background-color: #F7F9FB;
+  text-align: center;
+  align-items: center;
+  transition: all .5s ease;
+  margin: 10px;
+  justify-content: center;
+  box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  cursor: pointer;
+
+}
+#project .projects-container .projects-items .item:hover{
+ color: #979797;
+ opacity: 60%;
+ 
+}
+#project .projects-container .projects-items .item p{
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--clr-primary);
+  line-height: 1rem;
+}
+
+#project .projects-container .projects-items .item span{
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--clr-primary);
+}
+#project .projects-container .project-items-slider {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 54.188rem;
+  height: 25.188rem;
+  background-color:#F7F9FB ;
+  justify-content: center;
+  gap: 1rem;
+  border-bottom-left-radius:  5rem;
+  border-bottom-right-radius: 5rem;
+}
+#project .projects-container .project-items-slider .btn button{
+ border: none;
+ outline: none;
+ font-size: 2rem;
+ background: none;
+ cursor: pointer;
+ transition: all .4s ease-in-out;
+}
+#project .projects-container .project-items-slider .btn button:hover{
+color:#979797 ;
+}
+#project .projects-container .project-items-slider .project-slider {
+  display: flex;
+  align-items: center;
+}
+#project .projects-container .project-items-slider .project-slider .project-slider-text {
+  margin-left: 2rem;
+  
+}
+#project .projects-container .project-items-slider .project-slider .project-slider-text span{
+  font-size: 3rem;
+  color: #68162C;
+}
+#project .projects-container .project-items-slider .project-slider .project-slider-text p{
+  width: 25rem;
+  
+}
+#project .projects-container .project-items-slider .project-slider img{
+  height: 20rem;
+}
