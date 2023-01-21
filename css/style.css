@@ -108,39 +108,56 @@ svg {
 /* ======= utility ===== */
 
 .text-primary {
-  color: var(--clr-primary);
+  color: var(--clr-primary) !important;
 }
 
 .text-secondary {
-  color: var(--clr-secondary);
+  color: var(--clr-secondary) !important;
 }
 
 .text-body {
-  color: var(--clr-Body-Text);
+  color: var(--clr-Body-Text) !important;
 }
 
 .text-box-1 {
-  color: var(--clr-text-in-the-Box-1);
+  color: var(--clr-text-in-the-Box-1) !important;
 }
 
 .text-box-2 {
-  color: var(--clr-text-in-the-Box-2);
+  color: var(--clr-text-in-the-Box-2) !important;
 }
 
 .text-box-3 {
-  color: var(--clr-text-in-the-Box-3);
+  color: var(--clr-text-in-the-Box-3) !important;
 }
 
 .text-box {
-  color: var(--clr-text-Box);
+  color: var(--clr-text-Box) !important;
+}
+
+.ff-header {
+  font-family: var(--ff-header);
+}
+
+/* font size & height */
+.f-50-70 {
+  font-size: var(--fs-014);
+  line-height: 4.375rem;
+}
+
+.f-21-29 {
+  font-size: var(--fs-006);
+  line-height: 1.813rem;
 }
 
 /* custom css */
 header {
+  top: 0%;
   width: 100%;
   padding-block: 10px;
-  /* position: fixed; */
-  top: 0;
+  position: fixed;
+  background: #ffffff;
+  border: none;
 }
 
 header > #header_wrapper {
@@ -153,6 +170,11 @@ header > #header_wrapper {
 
 header > #header_wrapper > .logo {
   display: flex;
+}
+
+header > #header_wrapper > .logo > .logo-img {
+  width: 75px;
+  height: 61px;
 }
 
 header > #header_wrapper > .logo > .logo-text {
@@ -190,4 +212,42 @@ header > #header_wrapper > nav > ul > li > a {
   margin: 10px 30px;
   color: var(--clr-gray);
   transition: all 0.3s ease-in;
+}
+
+#banner {
+  width: 100%;
+  margin-top: 125px;
+}
+
+.banner_wrapper {
+  display: flex;
+  max-width: 100%;
+
+  /* padding-top: 125px; */
+}
+
+.banner-left {
+  min-width: 650px;
+  width: 650px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  justify-content: space-between;
+  margin-left: 5.3%;
+  padding-right: 10px;
+}
+
+.btn {
+  background-color: var(--clr-primary-button);
+  border-radius: 50px;
+  border: none;
+  padding: 16px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.banner-right {
+  width: 100%;
 }
