@@ -96,6 +96,7 @@ html,
 body {
   height: 100%;
   font-family: var(--ff-primary);
+  background-color: var(--website-bkg-clr);
 }
 
 img,
@@ -161,7 +162,7 @@ header {
 }
 
 header > #header_wrapper {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -217,24 +218,25 @@ header > #header_wrapper > nav > ul > li > a {
 #banner {
   width: 100%;
   margin-top: 125px;
+  min-width: 1200px;
 }
 
 .banner_wrapper {
   display: flex;
   max-width: 100%;
-
-  /* padding-top: 125px; */
+  height: 512px;
 }
 
 .banner-left {
-  min-width: 650px;
-  width: 650px;
+  min-width: 500px;
+  width: 500px;
+  height: 500px;
   display: flex;
   flex-flow: column wrap;
   align-items: start;
   justify-content: space-between;
-  margin-left: 5.3%;
-  padding-right: 10px;
+  margin-left: 4.5%;
+  margin-right: 35px;
 }
 
 .btn {
@@ -245,9 +247,13 @@ header > #header_wrapper > nav > ul > li > a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .banner-right {
   width: 100%;
+}
+
+.banner-right > img {
+  min-width: 750px;
 }
