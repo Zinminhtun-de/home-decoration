@@ -137,7 +137,7 @@ svg {
  /* header for each section */
  .header-for-all{
   font-size: 40px;
-  color: #68162C;
+  color: var(--clr-primary);
   display: flex;
   font-family: var(--ff-header);
   margin-bottom: 3rem;
@@ -336,3 +336,78 @@ svg {
   letter-spacing: 2px;
 }
 
+footer .footer-parent-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center  ;
+  width: 55rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  margin-left: 12rem;
+  margin-top: 7rem;
+}
+footer .footer-parent-container p{
+  
+   width: 40rem;
+}
+
+footer .footer-parent-container .footer-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-parent-container .footer-btn button {
+   cursor: pointer;
+   padding: 4px;
+   border: none;
+   border-radius: .7rem;
+   background-color: var(--clr-footer-menu-button);
+   transition: all .5s ease;
+   margin-left: 1.7rem;
+   margin-bottom: 2rem;
+}
+
+footer .footer-parent-container .footer-btn button a{
+  text-decoration: none;
+  transition: all .5s ease;
+  padding: 2px 5px;
+}
+footer .footer-parent-container .footer-btn button a:hover{
+  color: #000000;
+}
+footer .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+footer .footer-logo .logo-footer{
+  display: flex; 
+  gap: 9px;
+}
+footer .footer-logo .logo-footer img{
+  height: 3rem;
+}
+footer .footer-logo .logo-footer h5{
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* margin-top: 10px; */
+  font-family: var(--ff-header);
+  color: var(--clr-primary);
+}
+footer .footer-logo .logo-footer span{
+  font-weight: 900;
+  /* font-size: 20px; */
+  color: #0E186D;
+  font-family: 'SF Pro Display-i';
+   margin-bottom: 20px;
+}
+footer .footer-logo .social-media-footer i{
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer .footer-logo .copyright{
+  color: var(--clr-active-text);
+}
