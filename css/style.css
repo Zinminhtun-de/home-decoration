@@ -174,6 +174,11 @@ svg {
   display: flex;
   gap: 1rem;
 }
+ .active{
+  opacity: 100%;
+  background-color: #F7F9FB;
+  
+}
 #project .projects-container .projects-items .item-1{
   border-top-left-radius: 5rem;
   border-top-right-radius: .8rem;
@@ -206,6 +211,7 @@ svg {
   -webkit-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
   cursor: pointer;
+ 
 
 }
 #project .projects-container .projects-items .item:hover{
@@ -271,6 +277,19 @@ svg {
 #client .client-parent-container .client-slider .client-slider-items{
   display: flex;
   align-items: center;
+overflow: hidden;
+  width: 60vw;
+  height: 70vh; 
+}
+#client .client-parent-container .client-slider .client-slider-items .slide{
+  display: flex;
+ position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: all .5s ease;
+ 
+
 }
 
 #client .client-parent-container .client-slider .client-slider-items img{
@@ -278,7 +297,7 @@ svg {
 }
 #client .client-parent-container .client-slider .client-slider-items p{
   letter-spacing: 2px;
-  width: 28rem;
+  width: 48rem;
   margin-left: 3rem;
 }
 #client .client-parent-container .client-slider .client-slider-items p i{
