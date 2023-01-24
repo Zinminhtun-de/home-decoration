@@ -155,11 +155,6 @@ svg {
   font-size: 2rem;
 }
 
-/* box-shadow */
-
-.box-shadow-001 {
-  box-shadow: 2px 2px 65px hsla(0, 0%, 0%, 0.16);
-}
 /* custom css */
 header {
   top: 0%;
@@ -182,11 +177,11 @@ header > #header_wrapper > .logo {
   display: flex;
 }
 
-header > #header_wrapper > .logo > .logo-img {
+/* header > #header_wrapper > .logo > .logo-img {
   width: 75px;
   height: 61px;
-}
-
+} */
+/* 
 header > #header_wrapper > .logo > .logo-text {
   padding-left: 1rem;
 }
@@ -204,7 +199,7 @@ header > #header_wrapper > .logo > .logo-text > .f-16 {
   color: var(--clr-secondary);
   font-size: var(--fs-004);
   font-weight: var(--fw-semi-bold);
-}
+} */
 
 header > #header_wrapper > nav > ul {
   display: flex;
@@ -243,9 +238,7 @@ header > #header_wrapper > nav > ul > li > a {
   height: 500px;
   display: flex;
   flex-direction: column;
-  /* flex-flow: column wrap; */
   align-items: start;
-  /* justify-content: space-between; */
   margin-left: 4.5%;
   margin-right: 35px;
 }
@@ -285,12 +278,9 @@ header > #header_wrapper > nav > ul > li > a {
   display: flex;
   background-color: var(--clr-block);
   border-radius: 100px;
-  /* box-shadow: 5px 5px 5px 0px #00000040; */
-  /* box-shadow: 1px 1px 2px 0px #00000040;
-  box-shadow: -2px -2px 2px 0px #ffffff99;
-  box-shadow: -6px -6px 8px 0px #ffffff66;
- */
- margin-top: 7.8rem;
+  box-shadow: 5px 5px 5px 0px #00000040, 1px 1px 2px 0px #00000040,
+    -2px -2px 2px 0px #ffffff99, -6px -6px 8px 0px #ffffff66;
+  margin-top: 7.8rem;
 }
 
 .sologan-left {
@@ -317,7 +307,6 @@ header > #header_wrapper > nav > ul > li > a {
   height: 413px;
   margin: 10px auto;
 }
-
 
 .carousel-indicators {
   position: absolute;
@@ -381,4 +370,44 @@ header > #header_wrapper > nav > ul > li > a {
 }
 .carousel-dark .carousel-caption {
   color: #000;
+}
+
+/* About US */
+
+.about-us {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.about-img {
+  position: absolute;
+}
+
+.about-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about1 {
+  max-width: 500px;
+  padding-top: 38%;
+  padding-right: 8%;
+}
+
+.about-head1 {
+  text-align: left;
+}
+
+.about3 {
+  width: 600px;
+  padding-top: 48%;
+  padding-left: 5%;
+}
+
+.about-head3 {
+  text-align: right;
+}
+
+.about-des3 {
+  text-align: right;
 }
