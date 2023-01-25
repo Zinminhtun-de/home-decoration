@@ -1,3 +1,54 @@
+// Explore Our Project
+const projectBtn =document.querySelectorAll('.item');
+//slideshow categories
+const projectAlu =document.querySelector('.project-1');
+const projectBat =document.querySelector('.project-2');
+const projectGpa =document.querySelector('.project-3');
+const projectGsc =document.querySelector('.project-4');
+const projectHar =document.querySelector('.project-5');
+//######
+ projectBtn.forEach((c)=>{
+     c.addEventListener('click',(k)=>{
+        const target =k.currentTarget.classList;
+        if(target.contains('item-1')){
+            projectAlu.style.display='flex';
+            projectBat.style.display='none'
+            projectGpa.style.display ='none';
+            projectGsc.style.display ='none';
+            projectHar.style.display='none';
+        }
+        if(target.contains('item-2')){
+           projectAlu.style.display ='none'
+           projectGpa.style.display ='none';
+            projectBat.style.display ='flex';
+            projectGsc.style.display ='none';
+            projectHar.style.display='none';
+        }
+        if(target.contains('item-3')){
+            projectAlu.style.display ='none'
+            projectBat.style.display ='none';
+            projectGsc.style.display ='none';
+            projectHar.style.display='none';
+             projectGpa.style.display ='flex';
+         }
+         if(target.contains('item-4')){
+            projectAlu.style.display ='none'
+            projectBat.style.display ='none';
+            projectGsc.style.display ='flex';
+            projectHar.style.display='none';
+             projectGpa.style.display ='none';
+         }
+         if(target.contains('item-5')){
+            projectAlu.style.display ='none'
+            projectBat.style.display ='none';
+            projectGsc.style.display ='none';
+            projectHar.style.display='flex';
+             projectGpa.style.display ='none';
+         }
+     })
+ })
+// #######
+
 //slide
 const nextBtn = document.querySelector('.next');
 const prevBtn = document.querySelector('.prev');
