@@ -49,19 +49,19 @@ const projectHar =document.querySelector('.project-5');
          }
      })
  })
- projectSlider.forEach((slidepj,index)=>{
-    slidepj.style.left=`${index*100}%`
- });
- let counterProject =0;
- btnNext.addEventListener('click',()=>{
-    counterProject++;
-    sliderProject()
- })
- function sliderProject(){
-    projectSlider.forEach((slidepj)=>{
-        slidepj.style.transform=`translateX(-${counterProject*200}%)`
-    })
- }
+//  projectSlider.forEach((slidepj,index)=>{
+//     slidepj.style.left=`${index*100}%`
+//  });
+//  let counterProject =0;
+//  btnNext.addEventListener('click',()=>{
+//     counterProject++;
+//     sliderProject()
+//  })
+//  function sliderProject(){
+//     projectSlider.forEach((slidepj)=>{
+//         slidepj.style.transform=`translateX(-${counterProject*200}%)`
+//     })
+//  }
 // #######
 
 //slide
@@ -109,7 +109,7 @@ function slider(){
     // }
     // #####
     slides.forEach((slide)=>{
-        slide.style.transform=`translateX(-${counter*200}%)`
+        slide.style.transform=`translateX(-${counter*100}%)`
     })
 }
 // #######
