@@ -242,6 +242,7 @@ opacity: 100%;
 }
 #project .projects-container .project-items-slider {
   margin-top: 20px;
+  position: relative;
   display: flex;
   align-items: center;
   width: 59.188rem;
@@ -258,12 +259,20 @@ opacity: 100%;
   align-items: center;
  
 }
+#project .projects-container .project-items-slider .project-slider .project-slide-container{
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  transition: all .5s ease;
+
+}
 #project .projects-container .project-items-slider .project-slider .project-slide{
   display: flex;
   align-items: center;
- width: 100%;
+ transition: all .5s ease;
  justify-content: center;
-  position: relative;
+ 
+  
 }
 
 #project .projects-container .project-items-slider .project-slider .project-slider-text {
@@ -304,11 +313,12 @@ opacity: 100%;
 #client .client-parent-container .client-slider .client-slider-items{
   display: flex;
   align-items: center;
+  position: relative;
 overflow: hidden;
 }
 #client .client-parent-container .client-slider .client-slider-items .slide{
   display: flex;
- position: relative;
+
   align-items: center;
   justify-content: center;
   width: 100%;

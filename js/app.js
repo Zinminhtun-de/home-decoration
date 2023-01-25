@@ -1,5 +1,7 @@
 // Explore Our Project
 const projectBtn =document.querySelectorAll('.item');
+// const projectSlider =document.querySelectorAll('.project-slide');
+const btnNext =document.querySelector('.btn-next');
 //slideshow categories
 const projectAlu =document.querySelector('.project-1');
 const projectBat =document.querySelector('.project-2');
@@ -47,6 +49,19 @@ const projectHar =document.querySelector('.project-5');
          }
      })
  })
+ projectSlider.forEach((slidepj,index)=>{
+    slidepj.style.left=`${index*100}%`
+ });
+ let counterProject =0;
+ btnNext.addEventListener('click',()=>{
+    counterProject++;
+    sliderProject()
+ })
+ function sliderProject(){
+    projectSlider.forEach((slidepj)=>{
+        slidepj.style.transform=`translateX(-${counterProject*200}%)`
+    })
+ }
 // #######
 
 //slide
