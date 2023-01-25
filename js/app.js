@@ -1,13 +1,13 @@
 // Explore Our Project
 const projectBtn =document.querySelectorAll('.item');
 // const projectSlider =document.querySelectorAll('.project-slide');
-const btnNext =document.querySelector('.btn-next');
+// const btnNext =document.querySelector('.btn-next');
 //slideshow categories
-const projectAlu =document.querySelector('.project-1');
-const projectBat =document.querySelector('.project-2');
-const projectGpa =document.querySelector('.project-3');
-const projectGsc =document.querySelector('.project-4');
-const projectHar =document.querySelector('.project-5');
+const projectAlu =document.querySelector('.swiper-1');
+const projectBat =document.querySelector('.swiper-2');
+const projectGpa =document.querySelector('.swiper-3');
+const projectGsc =document.querySelector('.swiper-4');
+const projectHar =document.querySelector('.swiper-5');
 //######
  projectBtn.forEach((c)=>{
      c.addEventListener('click',(k)=>{
