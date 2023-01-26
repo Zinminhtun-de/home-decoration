@@ -161,13 +161,14 @@ svg {
  /* item information center */
 #item-information{
   margin-top: 7rem;
+  margin-left: 3rem;
 }
 #item-information .information-container h1{
   color: #68162C;
   letter-spacing: 2px;
   font-size: 40px;
   font-family: var(--ff-header);
-  margin-left: 9rem;
+  margin-left: 8rem;
 }
 #item-information .information-container .information-center{
   display: flex;

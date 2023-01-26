@@ -1,3 +1,32 @@
+// Items' Information
+// btn for widget 
+
+const informationItem = document.querySelectorAll('.widget-glass');
+//###
+// selected for glass item information div
+const IteminfoOne =document.querySelector('.paragrah-1');
+const IteminfoTwo =document.querySelector('.paragrah-2');
+const IteminfoThr =document.querySelector('.paragrah-3');
+//###
+ informationItem.forEach(p=>{
+     p.addEventListener('click',o=>{
+        const eashItem =o.currentTarget.classList;
+        if(eashItem.contains('info-1')){
+            IteminfoOne.style.display='flex';
+            IteminfoTwo.style.display='none';
+            IteminfoThr.style.display='none';
+        }else if(eashItem.contains('info-2')){
+            IteminfoOne.style.display='none';
+            IteminfoTwo.style.display='flex';
+            IteminfoThr.style.display='none';
+        }else{
+            IteminfoOne.style.display='none';
+            IteminfoTwo.style.display='none';
+            IteminfoThr.style.display='flex';
+        }
+     })
+ })
+// #######
 // Explore Our Project
 const projectBtn =document.querySelectorAll('.item');
 
