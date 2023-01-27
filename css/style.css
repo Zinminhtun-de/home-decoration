@@ -180,7 +180,7 @@ svg {
 }
 #item-information .information-container .information-center .information-items .item-widget{
   width: 12rem;
-  height: 12rem;
+  height: 11rem;
   background-color: #F7F9FB;
   margin-bottom: 1.5rem;
   border-top-left-radius: 8rem;
@@ -194,7 +194,7 @@ svg {
 }
 #item-information .information-container .information-center .information-paragraph{
   width: 47rem;
-  height: 40rem;
+  height: 37rem;
  background-color: #fff;
  display: flex;
  flex-direction: column;
@@ -203,14 +203,14 @@ svg {
  border-top-left-radius: 20px;
  border-bottom-left-radius: 20px;
  border-bottom-right-radius: 20px;
- margin-left: 4rem;
+ margin-left: 3rem;
  
 }
 #item-information .information-container .information-center .information-paragraph h5{
   font-family: var(--ff-header);
   color: #68162C;
   font-weight: 600;
-  margin-left: 50px;
+  margin-left:7.5rem;
 }  
 #item-information .information-container .information-center .information-paragraph .informations{
  display: flex;
@@ -227,8 +227,8 @@ svg {
   cursor: pointer;
 }
 #item-information .information-container .information-center .information-paragraph .informations p{
-  margin-left: 1rem;
-  width: 38rem;
+  margin-left: 10px;
+  width: 30rem;
   
 }
 #item-information .information-container .information-center .information-paragraph .informations .icon i{
@@ -237,7 +237,7 @@ svg {
 }
 #item-information .information-container .information-center .information-items .item-widget img{
   width: 12rem;
-  height: 10rem;
+  height: 9rem;
 }
 #item-information .information-container .information-center .information-items .item-widget .widget-text{
   display: flex;
@@ -473,6 +473,9 @@ overflow: hidden;
   flex-direction: column;
   margin-top: 7rem;
 }
+#service .service-parent-container .installation-2-for-mobile{
+  display: none;
+}
 #service .service-parent-container h1{
   margin-left: 15rem;
 }
@@ -669,6 +672,134 @@ footer .footer-parent-container .social-media-2{
   display: none;
 }
 @media only screen and (max-width: 36em){
+  /* #item-information .information-container .information-center .information-paragraph .informations p{
+    margin-left: 10px;
+    width: 20rem;
+   
+    
+  } */
+  #item-information .information-container .information-center .information-paragraph{
+    width: 28rem;
+    height: 30rem;
+    margin-top: 30px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    margin-left: -3rem;
+   
+  }
+  #item-information .information-container .information-center .information-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-right: 2rem;
+  }
+  #item-information .information-container .information-center .information-items .item-widget{
+    width: 9rem;
+    height: 12rem;
+    background-color: #F7F9FB;
+    margin-bottom: 1.5rem;
+    border-top-left-radius: 16rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-left:0;
+  }
+  #item-information .information-container h1{
+    color: #68162C;
+    /* letter-spacing: 2px; */
+    font-size: 38px;
+    font-family: var(--ff-header);
+    margin: 0;
+  }
+  #item-information .information-container .information-center{
+    display: flex;
+    flex-direction: column;
+  }
+  #project{
+    display: none;
+  }
+
+  .swiper {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 40rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+  .swiper-slide .swiper-slide-item{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  #client .client-parent-container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    width: 60vw;
+   margin-left: 16rem;
+   justify-content: center; */
+   display: none;
+   
+ }
+ #service .service-parent-container h1{
+  margin-left: 1rem;
+}
+ #service .service-parent-container .intallation-1 .installation-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+#service .service-parent-container .intallation-1 .installation-items h5{
+  width: 2rem;
+  font-size: 2rem;
+}
+#service .service-parent-container .installation-2{
+  display: none;
+}
+#service .service-parent-container .installation-2 .installation-item2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .img-serivice{
+  height: 10rem;
+  margin-right: 3rem;
+} */
+#service .service-parent-container .intallation-1 .installation-items p{
+  margin-top: 2rem;
+  width: 23rem;
+   
+}
+#service .service-parent-container .intallation-1 .installation-items img{
+  height: 20rem;
+  margin-left: 5rem;
+  margin-bottom: 20px;
+}
+#service .service-parent-container .installation-2-for-mobile{
+  display: block;
+}
+#service .service-parent-container .installation-2-for-mobile .installation-item2-mobile h5{
+  color: var(--clr-active-text);
+  font-family: var(--ff-header);
+  width: 2rem;
+  font-size: 2rem;
+
+}
+#service .service-parent-container .installation-2-for-mobile .installation-item2-mobile p{
+  width: 22rem;
+}
+#service .service-parent-container .installation-2-for-mobile .installation-item2-mobile .installation-items-text2{
+  margin-left: 6rem;
+}
+#service .service-parent-container .installation-2-for-mobile img{
+  height: 20rem;
+  margin-left: 3rem;
+  margin-bottom: 20px;
+}
   #contact .contact-parent-container{
     display: flex;
     flex-direction: column;
