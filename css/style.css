@@ -745,6 +745,7 @@ footer .footer-parent-container .social-media-2{
    
  }
  #service .service-parent-container h1{
+  font-size: 3rem;
   margin-left: 1rem;
 }
  #service .service-parent-container .intallation-1 .installation-items{
@@ -790,7 +791,8 @@ footer .footer-parent-container .social-media-2{
 
 }
 #service .service-parent-container .installation-2-for-mobile .installation-item2-mobile p{
-  width: 22rem;
+  width: 18rem;
+  margin-left: -3rem;
 }
 #service .service-parent-container .installation-2-for-mobile .installation-item2-mobile .installation-items-text2{
   margin-left: 6rem;
@@ -806,6 +808,9 @@ footer .footer-parent-container .social-media-2{
     justify-content: center;
     align-items: center;
   }
+  #contact .contact-parent-container .contact-text h1{
+    font-size: 2rem;
+  }
   #contact .contact-parent-container .contact-form .form{
     display: flex;
     flex-direction: column;
@@ -816,22 +821,33 @@ footer .footer-parent-container .social-media-2{
   #contact .contact-parent-container .contact-form .form input{
     /* padding: 10px 10px ; */
     /* margin-top: 10px; */
-    width: 28rem;
+    width: 20rem;
     border: none;
     border-radius: 10px;
     align-items: center;
-    margin-left: 9px;
+    margin-left: .1rem;
   }
   #contact .contact-parent-container .contact-form .form textarea{
     /* margin-top: 10px; */
     padding: 15px 10px ;
-    width: 28rem;
+    width: 20rem;
     border: none;
     border-radius: 10px;
-    margin-left: 9px;
+    margin-left: .1rem;
   }
   #contact .contact-parent-container .contact-text{
     margin-left: 2rem;
+  }
+  #contact .map{
+  width: 20rem;
+  margin-left: 30px;
+
+  }
+  #contact .map iframe{
+    border-radius: 10px;
+    box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
   }
   /* #contact .contact-parent-container .contact-text .contact-box{
     display: flex;
@@ -842,6 +858,9 @@ footer .footer-parent-container .social-media-2{
   #contact .contact-parent-container .contact-text span{
     font-weight: 600;
     /* letter-spacing: 1px; */
+    footer{
+      width: 100%;
+    }
     footer .footer-parent-container{
       display: flex;
       flex-direction: column;
