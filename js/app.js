@@ -135,3 +135,28 @@ const year = document.querySelector('.year');
 year.innerHTML=new Date().getFullYear();
 
 // #######
+let infoOne =document.querySelector('.info-1').style;
+let infoTwo =document.querySelector('.info-2').style;
+let infoThree =document.querySelector('.info-3').style;
+
+function toggle(value){
+    switch (value) {
+        case 1:
+            infoOne.opacity = "1";
+            infoTwo.opacity = "0.5";
+            infoThree.opacity = "0.5";
+          break;
+        case 2:
+            infoTwo.opacity = "1";
+            infoOne.opacity = "0.5";
+            infoThree.opacity = "0.5";
+          break;
+        case 3:
+            infoTwo.opacity = "0.5";
+            infoOne.opacity = "0.5";
+            infoThree.opacity = "1";
+          break;
+        default:
+          break;
+      }
+}
