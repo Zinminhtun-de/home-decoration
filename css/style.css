@@ -188,9 +188,10 @@ svg {
   cursor: pointer;
   transition: all .5s ease;
 }
-#item-information .information-container .information-center .information-items .item-widget:hover{
-  color: #979797;
-  opacity: 60%;
+
+#item-information .information-container .information-center .information-items .info-2,
+#item-information .information-container .information-center .information-items .info-3{
+   opacity: 0.5;
 }
 #item-information .information-container .information-center .information-paragraph{
   width: 47rem;

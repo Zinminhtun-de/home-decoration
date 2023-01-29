@@ -1,4 +1,5 @@
-// btn for widget 
+
+// all btn for widget in client testimonials
 const informationItem = document.querySelectorAll('.widget-glass');
 //###
 
@@ -8,7 +9,7 @@ const IteminfoTwo =document.querySelector('.paragrah-2');
 const IteminfoThr =document.querySelector('.paragrah-3');
 //###
 
-//slideshow categories
+//slideshow categories in explore our projects
 const projectAlu =document.querySelector('.swiper-1');
 const projectBat =document.querySelector('.swiper-2');
 const projectGpa =document.querySelector('.swiper-3');
