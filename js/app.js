@@ -19,6 +19,11 @@ const projectHar =document.querySelector('.swiper-5');
 
 // explore our project section 
 const projectBtn =document.querySelectorAll('.item');
+let itemOne =document.querySelector('.item-1').style;
+let itemTwo =document.querySelector('.item-2').style;
+let itemThree =document.querySelector('.item-3').style;
+let itemFour =document.querySelector('.item-4').style;
+let itemFive =document.querySelector('.item-5').style;
 // ###
 
 // client testimonials slider btn
@@ -152,6 +157,41 @@ function toggle(value){
             infoTwo.opacity = "0.5";
             infoOne.opacity = "0.5";
             infoThree.opacity = "1";
+          break;
+        case 4:
+            itemOne.opacity='1';
+            itemTwo.opacity='0.5';
+            itemThree.opacity='0.5';
+            itemFour.opacity='0.5';
+            itemFive.opacity='0.5';
+          break;
+        case 5:
+            itemOne.opacity='0.5';
+            itemTwo.opacity='1';
+            itemThree.opacity='0.5';
+            itemFour.opacity='0.5';
+            itemFive.opacity='0.5';
+          break;
+        case 6:
+            itemOne.opacity='0.5';
+            itemTwo.opacity='0.5';
+            itemThree.opacity='1';
+            itemFour.opacity='0.5';
+            itemFive.opacity='0.5';
+          break;
+        case 7:
+            itemOne.opacity='0.5';
+            itemTwo.opacity='0.5';
+            itemThree.opacity='0.5';
+            itemFour.opacity='1';
+            itemFive.opacity='0.5';
+          break;
+        case 8:
+            itemOne.opacity='0.5';
+            itemTwo.opacity='0.5';
+            itemThree.opacity='0.5';
+            itemFour.opacity='0.5';
+            itemFive.opacity='1';
           break;
         default:
           break;
