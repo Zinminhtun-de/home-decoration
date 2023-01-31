@@ -488,6 +488,13 @@ color:#979797 ;
  justify-content: center;
  align-items: center;
 }
+
+/* want to hide mobile photo in explore our project */
+.swiper-slide .swiper-slide-item  img:nth-child(2){
+  display: none;
+}
+/* #### */
+
 .swiper-slide .swiper-slide-item .swiper-text h1{
   color: #68162C;
   letter-spacing: 2px;
@@ -770,9 +777,6 @@ footer .footer-parent-container .social-media-2{
     width: 100%;
    }
 
-  .project-swiper-container{
-    display: none;
-  }
   #item-information{
     display: none;
   }
@@ -804,7 +808,18 @@ footer .footer-parent-container .social-media-2{
   .swiper-slide .swiper-slide-item{
     display: flex;
     flex-direction: column;
-   
+  }
+  .swiper-slide .swiper-slide-item .swiper-text h1{
+    font-size: 2rem;
+  }
+  .swiper-slide .swiper-slide-item img{
+    display: none;
+  }
+  .swiper-slide .swiper-slide-item img:nth-child(2){
+    display: block;
+    width: 23rem;
+    height: 20rem;
+    margin-bottom: 1rem;
   }
   #client .client-parent-container{
     /* display: flex;

@@ -158,6 +158,8 @@ function toggle(value){
             infoOne.opacity = "0.5";
             infoThree.opacity = "1";
           break;
+
+        // for explore our projects
         case 4:
             itemOne.opacity='1';
             itemTwo.opacity='0.5';
@@ -192,6 +194,12 @@ function toggle(value){
             itemThree.opacity='0.5';
             itemFour.opacity='0.5';
             itemFive.opacity='1';
+          break;
+        // ####
+        case 9:
+            infoOne.opacity = "1";
+            infoTwo.opacity = "0.5";
+            infoThree.opacity = "0.5";
           break;
         default:
           break;
