@@ -210,3 +210,4 @@ function toggle(value){
 //set the current year in footer section
 year.innerHTML=new Date().getFullYear();
 // #######
+
