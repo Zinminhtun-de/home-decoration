@@ -396,6 +396,8 @@ margin-left: 3rem;
   -moz-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
   cursor: pointer;
   transition: all .5s ease;
+  user-select: none;
+ 
 }
 #project .projects-container .projects-items .item:hover{
  color: #979797;
@@ -456,6 +458,31 @@ color:#979797 ;
 #project .projects-container .project-items-slider .project-slider img{
   height: 20rem;
 }
+
+ /* title bar for explore our project in mobile */
+ #project .title-bar{
+  margin-top: 4rem;
+  width: 30rem;
+  height: 4rem;
+  background-color: #F7F9FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 12px -1px rgba(0,0,0,0.75);
+  border-top-left-radius: 40rem;
+  border-top-right-radius: 40rem;
+  user-select: none;
+  display: none;
+ }
+ #project .title-bar h5{
+    font-family: var(--ff-header);
+    text-align: center;
+    color: var(--clr-active);
+ }
+ /* ### */
+
 .swiper {
   margin-top: 2rem;
   width: 59rem;
@@ -518,6 +545,32 @@ color:#979797 ;
 }
 #client {
    max-width: 100rem;
+}
+#client .slide-mobile h1{
+  font-family: var(--ff-header);
+  font-size: 1.7rem;
+  color: var(--clr-active);
+  margin-left:-1rem ;
+  margin-top: 10rem;
+  
+}
+#client .slide-mobile {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+#client .slide-mobile p{
+  width: 27rem;
+  margin-top: 2rem;
+}
+#client .slide-mobile .client-section{
+  display: flex;
+
+}
+#client .slide-mobile .client-section img{
+  width: 5rem;
+  margin-right: 2rem;
 }
 #client .client-parent-container{
    display: flex;
@@ -772,6 +825,9 @@ footer .footer-logo .copyright{
 footer .footer-parent-container .social-media-2{
   display: none;
 }
+
+
+
 @media only screen and (max-width: 36em){
    body{
     width: 100%;
@@ -794,10 +850,14 @@ footer .footer-parent-container .social-media-2{
     display: flex;
     flex-direction: column;
   } 
-  #project{
+  #project .projects-container{
     display: none;
   }
-
+  #project h1{
+    font-size: 2rem;
+    width:25rem;
+    margin-left: 1rem;
+  }
   .swiper {
     margin-top: 2rem;
     width: 30rem;
@@ -821,16 +881,24 @@ footer .footer-parent-container .social-media-2{
     height: 20rem;
     margin-bottom: 1rem;
   }
-  #client .client-parent-container{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 7rem;
-    width: 60vw;
-   margin-left: 16rem;
-   justify-content: center; */
+  #client .client-parent-container{ 
    display: none;
-   
+ }
+ 
+ /* title bar for explore our project in mobile */
+ #project .title-bar{
+ display:flex;
+ }
+ /* #### */
+ #client .slide-mobile{
+  display: block;
+  margin-left: 3rem;
+ }
+ #service .service-parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
  }
  #service .service-parent-container h1{
   font-size: 2rem;
@@ -862,11 +930,12 @@ footer .footer-parent-container .social-media-2{
 }
 #service .service-parent-container .intallation-1 .installation-items img{
   height: 20rem;
-  margin-left: 5rem;
+  margin-left: 10rem;
   margin-bottom: 20px;
 }
 #service .service-parent-container .installation-2-for-mobile{
   display: block;
+  margin-top: 2rem;
 }
 #service .service-parent-container .installation-2-for-mobile .installation-item2-mobile h5{
   color: var(--clr-active-text);
@@ -876,7 +945,7 @@ footer .footer-parent-container .social-media-2{
 
 }
 #service .service-parent-container .installation-2-for-mobile .installation-item2-mobile p{
-  width: 18rem;
+  width:24rem;
   margin-left: -3rem;
 }
 #service .service-parent-container .installation-2-for-mobile .installation-item2-mobile .installation-items-text2{
