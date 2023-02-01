@@ -8,7 +8,15 @@ const IteminfoOne =document.querySelector('.paragrah-1');
 const IteminfoTwo =document.querySelector('.paragrah-2');
 const IteminfoThr =document.querySelector('.paragrah-3');
 //###
+// item information for mobile
 
+const infoMobile =document.querySelectorAll('.widget-mobile');
+
+const infoparaMobo1 =document.querySelector('.paragraph-mobile-1');
+const infoparaMobo2 =document.querySelector('.paragraph-mobile-2');
+const infoparaMobo3 =document.querySelector('.paragraph-mobile-3');
+
+// ###
 //slideshow categories in explore our projects
 const projectAlu =document.querySelector('.swiper-1');
 const projectBat =document.querySelector('.swiper-2');
@@ -62,6 +70,28 @@ const year = document.querySelector('.year');
         }
      })
  })
+
+ // item information mobile 
+infoMobile.forEach((g)=>{
+   g.addEventListener('click',(h)=>{
+    const targetMoboInfo = h.currentTarget.classList;
+    if(targetMoboInfo.contains('widget-mobo-1')){
+        infoparaMobo2.style.display="none";
+        infoparaMobo1.style.display="flex";
+        infoparaMobo3.style.display="none"; 
+    }else if(targetMoboInfo.contains('widget-mobo-2')){
+        infoparaMobo2.style.display="flex";
+        infoparaMobo1.style.display="none";
+        infoparaMobo3.style.display="none"; 
+    }else{
+        infoparaMobo2.style.display="none";
+        infoparaMobo1.style.display="none";
+        infoparaMobo3.style.display="flex"; 
+    }
+   })
+})
+//###
+
 // #######
 
 // Explore Our Project
