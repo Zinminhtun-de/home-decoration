@@ -269,7 +269,7 @@ header > #header_wrapper > nav > ul > li > a:hover {
   margin-right: 35px;
 }
 
-.btn {
+.btn-contact {
   background-color: var(--clr-primary-button);
   border-radius: 50px;
   border: none;
@@ -280,7 +280,7 @@ header > #header_wrapper > nav > ul > li > a:hover {
   margin-top: 2rem;
 }
 
-.btn:hover {
+.btn-contact:hover {
   color: #000000 !important;
   background-color: #979797;
 }
@@ -1525,7 +1525,7 @@ footer .footer-parent-container .social-media-2{
     padding-inline: 15px;
     padding-block: 50px;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
   }
 
   .f-40-44 {
@@ -1658,7 +1658,7 @@ footer .footer-parent-container .social-media-2{
      flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    width: 100%;
   }
   #project .swiper-container-mobile .swiper{
     width: 29rem;
