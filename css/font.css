@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Monument Extented';
+    src: url(../font/MonumentExtended-Regular.otf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+  }
+  @font-face {
+    font-family: "SF Pro Display-i";
+    src: url(/font/FontsFree-Net-SFProDisplay-SemiboldItalic.ttf);
+  }
