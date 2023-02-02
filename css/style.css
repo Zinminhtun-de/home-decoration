@@ -165,8 +165,7 @@ header {
   top: 0%;
   width: 100%;
   padding-block: 10px;
-  position: fixed;
-  background: var(--website-bkg-clr-achieve);
+  /* position: fixed; */
   border: none;
   z-index: 99;
 }
@@ -211,6 +210,18 @@ header > #header_wrapper > nav > ul > li > a {
 header > #header_wrapper > nav > ul > li > a:hover {
   position: relative;
   color: #001aff;
+}
+
+.nav-items-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--website-bkg-clr-achieve);
+  /* font-size: 15px; */
+  height: 5.063rem;
+  padding-block: 10px;
+  z-index: 99;
 }
 
 #responsive_menu {
@@ -520,6 +531,14 @@ video {
 /* ===== xs ====== */
 
 @media only screen and (max-width: 36em) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+    place-items: center;
+    align-self: center;
+  }
+
   header {
     padding-block: 0px;
     width: 100%;
