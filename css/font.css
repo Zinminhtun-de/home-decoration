@@ -3,6 +3,7 @@
   src: url(../font/MonumentExtended-Regular.otf);
 }
 @font-face {
+
   font-family: "SF Pro Display";
   src: url(../font/SFPRODISPLAYMEDIUM.OTF);
 }
@@ -11,3 +12,6 @@
   font-family: "SF Pro Display italic";
   src: url(../font/FontsFree-Net-SFProDisplay-SemiboldItalic.ttf);
 }
+
+   
+
