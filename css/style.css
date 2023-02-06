@@ -1610,9 +1610,14 @@ footer .footer-parent-container .social-media-2{
   #client .client-parent-container{ 
     display: none;
   }
+  #client{
+    width: 100%;
+  }
   #client .slide-mobile{
-   display: block;
-   margin-left: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* margin-left: 3rem; */
   }
   /* ##### */
 
@@ -1623,7 +1628,7 @@ footer .footer-parent-container .social-media-2{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     margin: auto;
     margin-top: 7rem;
   }
