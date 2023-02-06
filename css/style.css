@@ -1392,13 +1392,14 @@ footer .footer-parent-container .social-media-2{
   /* =======hero section======== */
    /* =======sologan======== */
   .sologan-slider {
+    max-width: 380px;
     margin: 0 auto;
     margin-bottom: 4rem;
   }
 
   .sologan {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 95%;
     height: 100%;
     padding-block: 20px;
     padding-inline: 10px;
@@ -1451,6 +1452,7 @@ footer .footer-parent-container .social-media-2{
     max-width: 100%;
     max-height: 100%;
   }
+  
 
   /* =======sologan======== */
   /* =======About Us======== */
@@ -1460,10 +1462,11 @@ footer .footer-parent-container .social-media-2{
   }
 
   #about-us-responsive {
+    max-width: 420px;
     display: block;
     margin: 0 auto;
     width: 100%;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
   }
 
   #about-us-responsive > h1 {
@@ -1485,7 +1488,7 @@ footer .footer-parent-container .social-media-2{
 
   .link-vector {
     position: absolute;
-    margin-left: 25%;
+    margin-inline: 35%;
     margin-top: 3%;
   }
 
@@ -1523,7 +1526,7 @@ footer .footer-parent-container .social-media-2{
   .achievement {
     background-color: var(--website-bkg-clr);
     margin: 0 auto;
-    padding-inline: 15px;
+    max-width: 440px;
     padding-block: 50px;
     width: 100%;
     height: 100%;
@@ -1548,7 +1551,7 @@ footer .footer-parent-container .social-media-2{
 
   #responsive-achi > .exp {
     margin-top: -17%;
-    margin-left: 5%;
+    margin-left: 11%;
     padding-block: 6%;
     width: 123px;
     height: 125px;
