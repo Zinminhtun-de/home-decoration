@@ -67,7 +67,7 @@ let itemFive =document.querySelector('.item-5').style;
 // client testimonials slider btn
 const nextBtn = document.querySelector('.next');
 const prevBtn = document.querySelector('.prev');
-const slides=document.querySelectorAll('.slide');
+const slides=document.querySelectorAll('.slide-client');
 //###
 
 // In client testimonial section, want to blur the other widget when it'd been clicked to current widget
@@ -172,31 +172,47 @@ infoMobile.forEach((g)=>{
 slides.forEach((slide,i)=>{
     slide.style.left=`${i*100}%`
 });
-// prevBtn.style.display='none'
+prevBtn.style.display='none'
 let counter =0;
 nextBtn.addEventListener('click',()=>{
     counter++;
     slider();
-    console.log('hi');
+   
 });
 prevBtn.addEventListener('click',()=>{
     counter--;
     slider();
-    console.log('he');
+    
 });
 function slider(){
-    if(counter==slides.length){
-        counter=0;
-    }
-    if(counter<0){
-        counter=slides.forEach.length-1
-    }
 
+    // if(counter==slides.length){
+    //     counter=0;
+    // }
+    // if(counter<0){
+    //     counter=slides.forEach.length-1
+    // }
+
+
+  // ---- working with BTN, want to hide next btn when the last slider
+      // For The NEXTBTN in projects-section
+ if(counter < slides.length-1){
+  nextBtn.style.display ='block';
+}else{
+  nextBtn.style.display ='none';
+}
+// For The PREVBTN 
+if(counter>0){
+prevBtn.style.display ='block';
+} else{
+  prevBtn.style.display ='none';
+}
     
     slides.forEach((slide)=>{
         slide.style.transform=`translateX(-${counter*100}%)`
     })
 }
+
 // #######
 
 
@@ -270,5 +286,4 @@ function toggle(value){
 //set the current year in footer section
 year.innerHTML=new Date().getFullYear();
 // #######
-
 
