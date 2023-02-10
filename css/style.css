@@ -1277,7 +1277,7 @@ footer .footer-parent-container {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 56rem;
+  width: 50rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   margin-left: 12rem;
   margin-top: 7rem;
@@ -1355,6 +1355,7 @@ footer .footer-parent-container .social-media-2 {
     overflow-x: hidden;
     display: grid;
     place-items: center;
+    
   }
   header {
     padding-block: 0px;
